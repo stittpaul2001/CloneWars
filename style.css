@@ -28,6 +28,15 @@ header {
 
 .blog-section {
   width: 100%;
+  justify-content: center;
+  align-content: center;
+
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 footer {
@@ -36,6 +45,7 @@ footer {
 
 .nova-section {
   align-content: center;
+  justify-content: center;
 }
 
 .header-bg-image {
@@ -43,6 +53,7 @@ footer {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  position: end;
   border: solid;
   border-color: black;
   width: 50%;
