@@ -18,7 +18,10 @@ header {
   display: flex;
   justify-content: space-between;
   gap: 5em;
+}
 
+.why-section {
+  background-color: antiquewhite;
 }
 
 .phone-section {
