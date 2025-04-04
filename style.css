@@ -40,12 +40,6 @@ header {
 
 }
 
-.card {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
-
 footer {
   text-align: center;
 }
