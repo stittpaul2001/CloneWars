@@ -1,14 +1,18 @@
 .bg-image {
   background-image: url(Building.avif);
-  object-fit: scale-down;
+  object-fit: fill;
   background-position: center;
   background-size: cover;
-  width: 100%;
+  /* max-width: 100%; */
   border: solid;
   min-height: 70dvh;
   color: rgb(215, 23, 23);
-  content: center;
+  justify-content: center;
   align-items: center;
+}
+
+.container-fluid {
+  font: center;
 }
 
 header {
