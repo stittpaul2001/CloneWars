@@ -6,78 +6,85 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Clone Wars</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+  <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
     crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
     integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script> -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="container-fluid m-0">
-  <header class="fw-bold p-1">
-    <h1>Clone Wars</h1>
-    <nav class="row p-0 justify-content-end">
-      <div class="col-5 mb-3 justify-content-end">
-        <span>Home</span>
-        <span>About</span>
-        <span>Services</span>
-        <span>Portfolio</span>
-        <span>Team</span>
-        <span>Blog</span>
-        <span>Dropdown</span>
-        <span>Contact</span>
-      </div>
-    </nav>
-    <div class="row center-text">
-      <div class="col p-4 px-5">
-        <h1 class="fw-bold mb-5">Focus On What Matters</h1>
-        <div class="center-text">
-          <span class="justify-content-center my-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
+<body class="container-fluid">
+  <header class="row">
+    <nav class="d-flex">
+      <h1 class="fw-bold">Clone Wars</h1>
+      <div class="col-md-5 align-content-center">
+        <div class="lines-spaced justify-items-center align-content-center">
+          <h1 class="fw-bold mb-2">Focus On What Matters</h1>
+          <p class="lines-spaced">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Placeat,
             repudiandae
             illoquaerat cupiditate doloremque ducimus! Officiis culpa ad nobis repudiandae dolores! Libero vitae velit
-            ipsam optio maiores praesentium nobis cupiditate?</span>
-        </div>
-        <div class="justify-content-center align-content-center">
-          <button class="btn-pill text-bg-info mt-5">Get Started</button>
-          <button class="btn btn-light"> <i class="mdi mdi-play-circle"></i> Watch Video</button>
+            ipsam optio maiores praesentium nobis cupiditate?</p>
+          <div class="align-content-center justify-space-between">
+            <button class="btn-pill text-bg-info mt-5 px-2">Get Started</button>
+            <button class="btn btn-light px-2"> <i class="mdi mdi-play-circle"></i> Watch Video</button>
+          </div>
         </div>
       </div>
-      <div class="col">
-        <img class="team-work" src="Team.avif" alt="image of some guys working">
+      <div class="col-md-7 header-bg-seconday header-bg-image">
+        <div class="d-flex justify-content-end justify-space-between">
+          <h3 class="fw-bold">Home</h3>
+          <h3>About</h3>
+          <h2>Services</h2>
+          <h3>Portfolio</h3>
+          <h3>Team</h3>
+          <h3>Blog</h3>
+          <h3 class="dropdown-toggle" data-bs-toggle="dropdown">
+            Dropdown
+          </h3>
+          <h3>Contact</h3>
+        </div>
       </div>
-    </div>
+    </nav>
   </header>
 
-  <main class="center-text">
-    <div class="row px-5 my-5 justify-content-center">
-      <div class="col-6 fw-bold center-text px-5">Why Choose Us</div>
-    </div>
-    <section class="row">
-      <div class="col">
-        <img class="image-poistion-center" src="team1.avif" alt="image of people working together">
+  <main>
+    <section class="container-fluid">
+      <div class="row my-5 align-content-center">
+        <div class="col-12">
+          <h1 class="fw-bold align-text-center justify-content-center">Why Choose Us</h1>
+        </div>
       </div>
-      <div class="col center-text px-5">
-        <div class="fw-bold"> big text right here</div>
-        <div>Here is a line of text now</div>
-        <div>
+      <div class="row">
+        <div class="col-md-8">
+          <img class="image-poistion-center" src="team1.avif" alt="image of people working together">
+        </div>
+        <div class="col-md-4 justify-content-center px-5">
+          <div class="fw-bold"> big text right here</div>
+          <div>Here is a line of text now</div>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ad doloremque odit hic possimus non
             commodiminus, quibusdam veritatis omnis vitae nisi facere suscipit soluta inventore dolor modi animi
             voluptate.</p>
-
+          <i class="mdi mdi-circle-small"></i>
+          <i class="mdi mdi-circle-small"></i>
+          <i class="mdi mdi-circle-small bg-primary"></i>
+          <i class="mdi mdi-circle-small"></i>
         </div>
-        <i class="mdi mdi-circle-small"></i>
-        <i class="mdi mdi-circle-small"></i>
-        <i class="mdi mdi-circle-small bg-primary"></i>
-        <i class="mdi mdi-circle-small"></i>
       </div>
     </section>
-    <section class="justify-content-center">
+
+    <section class="container-fluid">
+
       <div class="row">
-        <h1 class="fw-bold align-content-center">Our Services</h1>
-        <hr>
+        <div class="col-md-12">
+          <h1 class="fw-bold d-flex align-content-center">Our Services</h1>
+          <hr>
+        </div>
+      </div>
+      <div class="row">
         <div class="col-4">
           <h5 class="fw-bold"> <i class="mdi mdi-briefcase"></i> Lorem Ipsum</h5>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sequi consequatur facilis dolores. Cum optio
@@ -114,76 +121,122 @@
             molestiae?</p>
         </div>
       </div>
-      <div class="row bg-secondary bg-image align-content-center center-text px-5 my-4">
-        <h1 class="fw-bold center-text px-5 align-content-center">UT Fugiat Aliguam Aut Non</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae amet hic commodi ea sit sunt quas neque
-          culpa. Praesentium voluptatum veritatis iure. Voluptates quis dolor iusto quod ducimus enim beatae.</p>
-        <button class="btn-pill small text-bg-info">Call to Action</button>
+    </section>
+
+    <section class="container-fluid">
+      <div class="row d-flex bg-secondary bg-image my-2">
+        <div class="col-12 align-content-center">
+          <h1 class="fw-bold">UT Fugiat Aliguam Aut Non</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae amet hic commodi ea sit sunt quas
+            neque
+            culpa. Praesentium voluptatum veritatis iure. Voluptates quis dolor iusto quod ducimus enim beatae.</p>
+          <button class="btn-pill text-bg-info">Call to Action</button>
+        </div>
       </div>
     </section>
-    <section class="row">
-      <div class="col-8">
-        <h1 class="fw-bold">Powerful Features for Your Business</h1>
-      </div>
-      <div class="col-4">
-        <img class="justify-content-center phone-section" src="phone.avif" alt="image of phone in hand">
+
+    <section class="container-fluid">
+
+      <div class="row">
+        <div class="col-8 align-content-center">
+          <h1 class="fw-bold px-5">Powerful Features for Your Business</h1>
+          <div class="row">
+            <div class="col-md-6 justify-content-center p-6">
+              <p><i class="mdi mdi-store-outline"></i> Easy Cart Features </p>
+              <p><i class="mdi mdi-calendar"></i> Ipsum Rerum Explicabo </p>
+              <p><i class="mdi mdi-stack-exchange"></i> Easy Cart Features </p>
+              <p><i class="mdi mdi-list-box"></i> </p>
+            </div>
+            <div class="col-md-6 align-content-center">
+              <p><i class="mdi mdi-chart-box-outline"></i> Sit amet consectetur adipisicing </p>
+              <p><i class="mdi mdi-brush-variant"></i>Easy Cart Features </p>
+              <p><i class="mdi mdi-bullseye"></i> Sit amet consectetur adipisicing</p>
+              <p><i class="mdi mdi-satellite-uplink"></i>Easy Cart Features </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 align-content-center">
+              <h1 class="fw-bold">Labore Sdio Lidui Bonde Naruto</h1>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat illo qui magnam voluptate natus
+                mollitia quisquam iste provident eius quae adipisci optio dicta laborum aperiam dignissimos nobis nulla,
+                culpa numquam?</p>
+              <button class="btn btn-pill btn-info">Get Started</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <img class="justify-content-center phone-section" src="phone.avif" alt="image of phone in hand">
+        </div>
       </div>
     </section>
-    <section class="row">
-      <h1 class="fw-bold">Recent Blog Post</h1>
-      <hr>
 
-      <div class="col-3">
-        <img class="justify-content-center blog-section" src="lady.avif" alt="construction lady">
-        <a>date & name</a>
-        <h5 class="fw-bold"></h5>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam neque expedita, voluptates ut sunt ullam
-          ipsa,
-          culpa at perspiciatis et placeat! Iure itaque alias deserunt laboriosam suscipit consectetur sint quia?</p>
-        <a href="">Read More <i class="mdi mdi-arrow-right"></i></a>
-      </div>
-      <div class="col-3">
-        <img class="align-content-center blog-section" src="lady1.avif" alt="image of two ladies doing work">
-        <a>date & name</a>
-        <h5 class="fw-bold"></h5>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis voluptas praesentium exercitationem. Eaque
-          voluptates sunt, sequi, dolorem nisi earum sed perferendis enim saepe animi quia laboriosam et rerum sint
-          quo!
-        </p>
-        <a href="">Read More <i class="mdi mdi-arrow-right"></i></a>
-      </div>
-      <div class="col-3">
-        <img class="align-content-center blog-section" src="lady2.avif" alt="image of a lady making a businesscall">
-        <a>date & name</a>
-        <h5 class="fw-bold"></h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus in et repellendus numquam, cumque
-          laborum,
-          animi reprehenderit provident deserunt repellat rerum voluptatem hic similique placeat aperiam consequatur
-          dignissimos dolorem. Repellat?</p>
-        <a href="">Read More <i class="mdi mdi-arrow-right"></i></a>
-      </div>
-      <div class="col-3">
-        <img class="center  blog-section" src="groupwork.avif" alt="image of people helping each other at work">
-        <a>date & name</a>
-        <h5 class="fw-bold"></h5>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus, commodi quaerat illum ipsa excepturi
-          accusamus harum ipsam magni natus rerum tempora, consequuntur cumque quidem aut blanditiis! Nisi et ab
-          temporibus.</p>
-        <a href="">Read More <i class="mdi mdi-arrow-right"></i></a>
-      </div>
 
-      <div class="row center-text">
-        <div class="col-5 px-3">
+    <section class="blog-section">
+      <div class="row mt-2">
+        <div class="col-md-12 align-content-center">
+          <h1 class="fw-bold">Recent Blog Post
+            <hr>
+          </h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <img class="justify-content-center blog-section" src="lady.avif" alt="construction lady">
+          <a class="text">date & name</a>
+          <h5 class="fw-bold"></h5>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam neque expedita, voluptates ut sunt ullam
+            ipsa,
+            culpa at perspiciatis et placeat! Iure itaque alias deserunt laboriosam suscipit consectetur sint quia?
+          </p>
+          <a href="">Read More <i class="mdi mdi-arrow-right"></i></a>
+        </div>
+        <div class="col-md-3">
+          <img class="align-content-center blog-section" src="lady1.avif" alt="image of two ladies doing work">
+          <a class="text">date & name</a>
+          <h5 class="fw-bold"></h5>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis voluptas praesentium exercitationem.
+            Eaque
+            voluptates sunt, sequi, dolorem nisi earum sed perferendis enim saepe animi quia laboriosam et rerum sint
+            quo!
+          </p>
+          <a href="">Read More <i class="mdi mdi-arrow-right"></i></a>
+        </div>
+        <div class="col-md-3">
+          <img class="align-content-center blog-section" src="lady2.avif" alt="image of a lady making a businesscall">
+          <a class="text">date & name</a>
+          <h5 class="fw-bold"></h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus in et repellendus numquam, cumque
+            laborum,
+            animi reprehenderit provident deserunt repellat rerum voluptatem hic similique placeat aperiam consequatur
+            dignissimos dolorem. Repellat?</p>
+          <a href="">Read More <i class="mdi mdi-arrow-right"></i></a>
+        </div>
+        <div class="col-md-3">
+          <img class="center  blog-section" src="groupwork.avif" alt="image of people helping each other at work">
+          <a class="text">date & name</a>
+          <h5 class="fw-bold"></h5>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus, commodi quaerat illum ipsa excepturi
+            accusamus harum ipsam magni natus rerum tempora, consequuntur cumque quidem aut blanditiis! Nisi et ab
+            temporibus.</p>
+          <a href="">Read More <i class="mdi mdi-arrow-right"></i></a>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="nova-section">
+      <div class="row center-text mt-2">
+        <div class="col-md-5 px-3">
           <h1 class="fw-bold">Nova</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod optio aspernatur asperiores modi sapiente
             est, nobis perspiciatis ipsum veritatis incidunt hic esse quo? Eum distinctio provident consectetur
             blanditiis facere quia!</p>
-          <button class="Twitter"><i class="mdi mdi-twitter text-bg-info"></i></button>
+          <button class="btn-border-radius"><i class="mdi mdi-twitter text-bg-info"></i></button>
           <button class="Facebook"><i class="mdi mdi-facebook text-bg-info"></i></button>
           <button class="Instagram"> <i class="mdi mdi-instagram text-bg-info"></i> </button>
           <button class="LinkedIn"> <i class="mdi mdi-linkedin text-bg-info"></i> </button>
         </div>
-        <div class="col-2">
+        <div class="col-md-2">
           <h1 class="fw-bold">Useful Links</h1>
           <p>-Home</p>
           <p>-About Us</p>
@@ -191,7 +244,7 @@
           <p>-Terms of Service</p>
           <p>-Privacy Policy</p>
         </div>
-        <div class="col-2">
+        <div class="col-md-2">
           <h1 class="fw-bold">Our Services</h1>
           <p>-Web Design</p>
           <p>-Web Development</p>
@@ -199,7 +252,7 @@
           <p>-Marketing</p>
           <p>-Graphic Design</p>
         </div>
-        <div class="col-3 px-3">
+        <div class="col-md-3 px-3">
           <h1 class="fw-bold">Contact Us</h1>
           <Address class="center-text">1234 Road Street New Castle, RI 789456 United States</Address>
           <div>
@@ -209,16 +262,20 @@
             info@dontrespond.com
           </div>
         </div>
-        <div>
-        </div>
       </div>
-
     </section>
-
   </main>
+
   <footer>
-    <div class="center-text">@Copyright Nova. All Rights Reserved Designed by BootstrapMade Brown Man Certified</div>
-    <div class="text-end"><i class="mdi mdi-arrow-up-bold-box text-bg-info"></i></div>
+    <section class="container-fluid">
+      <div class="row center-text mb-1 mt-3">
+        <div class="col-md-12">
+          Nova. All Rights Reserved Designed by BootstrapMade Brown
+          Man Certified
+        </div>
+        <div class="text-end center-text"><i class="mdi mdi-arrow-up-bold-box text-bg-info"></i></div>
+      </div>
+    </section>
   </footer>
 
 </body>
