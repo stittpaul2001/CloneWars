@@ -1,14 +1,11 @@
 .bg-image {
   background-image: url(Building.avif);
-  object-fit: fill;
   background-position: center;
   background-size: cover;
-  /* max-width: 100%; */
-  border: solid;
   min-height: 70dvh;
   color: rgb(215, 23, 23);
-  justify-content: center;
   align-items: center;
+
 }
 
 .container-fluid {
@@ -60,4 +57,6 @@ footer {
   width: 50%;
   min-height: 100dvh;
   background-color: #233f65;
+  color: red;
+  text-shadow: mediumblue;
 }
